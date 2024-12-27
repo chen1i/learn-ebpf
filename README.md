@@ -101,6 +101,18 @@ sudo apt-get install -y --no-install-recommends \
 
 to install dependencies.
 
+### **4. Install ecc & ecli**
+Visit https://github.com/eunomia-bpf/eunomia-bpf/releases to download binary (replace version accordingly).
+```sh
+
+wget -O ~/.local/bin/ecc https://github.com/eunomia-bpf/eunomia-bpf/releases/download/v1.0.27/ecc
+
+wget -O ~/.local/bin/ecli https://github.com/eunomia-bpf/eunomia-bpf/releases/download/v1.0.27/ecli
+
+chmod +x ~/.local/bin/ecc
+chmod +x ~/.local/bin/ecli
+```
+
 ### **4. Build the project**
 
 To build the project, run the following command:
